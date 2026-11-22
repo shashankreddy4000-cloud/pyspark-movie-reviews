@@ -1,0 +1,15 @@
+# Dataset is ~63 MB - download it from Kaggle instead of committing it
+data/
+*.csv
+!sample/*.csv
+
+# Spark / Python output
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
